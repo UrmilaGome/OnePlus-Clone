@@ -1,0 +1,384 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 80%;
+    margin-right: 40px;
+
+}
+
+nav img{
+    width:100px;
+    height:30px;
+    margin-top: -10px;
+    margin-left: 20px;
+    
+}
+
+.listing ul li{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+} 
+nav{
+    background-color: white;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.box2{
+    color: white;
+    position: absolute;
+    /* border: 1px solid white; */
+    margin-top: 160px;
+    margin-left: 80px;
+    
+}
+.box1 img:first-child{
+width:100%;
+height: 100vh;
+}
+.box2 img{
+    width:250px ;
+    height:80px;
+}
+button{
+    width:100px ;
+    height: 30px;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+}
+.box1{
+  background-image: url(./img/salami-pc-2.75.jpg..webp);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+span button:last-child{
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    margin-left:5px;
+}
+p{
+  font-size: 20px;
+}
+
+h1{
+    margin-bottom: 70px;
+}
+
+.box3 span button:first-child{
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+}
+
+.box3{
+    color: black;
+    background-color: white;
+    /* width: 400px; */
+    width: 50%;
+    height: 400px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 70px;
+    
+}
+.second{
+    background-color:white;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;    
+}
+
+.box4{
+    width: 50%;
+    margin-right:90px;
+    margin-top:40px;
+    
+}
+
+.box4 img{
+    height:400px ;
+    width:700px;
+}
+.box3 span button:last-child{
+    color:black;
+    background-color: white;
+    border: 1px solid black;
+}
+span{
+    margin-top: 20px;
+}
+.box3 p{
+    margin-top: 140px;
+}
+.box4 img:hover{
+    transition:  all ease-in-out 0.01s;
+    transform: scale(105%);
+   
+}
+.third{
+    width: 100%;
+    height: 400px;
+    background-color:  white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* justify-content: space-around; */
+   
+    /* margin-top: 20px; */
+}
+.box5{
+    width: 45%;
+    height: 350px;
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    flex-direction: row;
+    /* margin-top: 20px;
+    margin: 10px; */
+    justify-content: center;
+    padding: 20px;
+    margin-right: 10px;
+}
+.box6{
+    width: 45%;
+    height: 350px;
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    flex-direction: row;
+     /* margin-top: 20px; */
+     padding: 10px;
+ 
+    justify-content: center;
+    margin-left: 10px;
+   
+}
+.one{
+   
+    width: 50%;
+    height: 250px;
+}
+.two{
+    background-color: rgb(245, 245, 245);
+    width: 50%;
+    height: 250px;
+}
+.three{
+    background-color: rgb(245, 245, 245);
+    width: 50%;
+    height: 250px;
+}
+.four{
+    background-color: rgb(245, 245, 245);
+    width: 50%;
+    height: 250px;
+}
+.box5 img{
+    height:300px ;
+    width:250px;
+}
+.three button{
+    border: none;
+}
+.box6 img{
+    height:270px ;
+    width:250px; 
+}
+.two img:hover{
+    transition:  all ease-in-out 0.01s;
+    transform: scale(120%);
+    
+}
+.four img:hover{
+    transition:  all ease-in-out 0.01s;
+    transform: scale(120%);
+   
+}
+ .one p{
+    margin-top: 110px;
+}
+.three p{
+    margin-top: 110px;
+    font-size: 20px;
+}
+.fourth{
+    padding: 50px;
+    width: 100%;
+    
+}
+.A{
+    background-image: url(./img/bgdevice-pc.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+    margin-top: -60px;
+}
+.A img{
+   width: 100%;
+}
+.B{
+    color: white;
+    margin:20px;
+    padding-top: 20px;
+}
+nav .fa-solid{
+    display: none;
+}
+.fifth .fa-solid{
+    display: none;
+}
+
+.fifth{
+    background-color: white;
+    width: 100%;
+    height: 600px;
+    
+}
+.A1{
+    background-color: white;
+    width: 100;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+.B1{
+    background-color: rgb(245, 245, 245);
+    width: 25%;
+    height: 300px;
+    margin-right:20px ;
+}
+.B2{
+    background-color: rgb(245, 245, 245);
+    width: 25%;
+    height: 300px;
+    margin-right:20px ;
+}
+.B3{
+    background-color: rgb(245, 245, 245);
+    width: 25%;
+    height: 300px;
+    margin-right: 20px;
+}
+.B4{
+    background-color: rgb(245, 245, 245);
+    width: 25%;
+    height: 300px;
+    margin-right:20px ;
+}
+
+.fifth h2{
+    margin: 20px;
+}
+
+.A1 img{
+    width:300px ;
+    height:300px;
+}
+.fifth ul{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 800px;
+    /* margin-bottom: 10px; */
+    
+}
+.fifth .A1 button{
+    color: black;
+    background-color: white;
+    width: 150px;
+    height: 30px;
+    border: 1px solid black;
+}
+.B2 p{
+    margin-bottom: 100px;
+}
+hr{
+    width: 96%;
+    margin: 10px;
+}
+.B1 img:hover{
+    transition:  all ease-in-out 0.01s;
+    transform: scale(107%);
+}
+.B2 img:hover{
+    transition:  all ease-in-out 0.01s;
+    transform: scale(107%);
+}
+.B3 img:hover{
+    transition:  all ease-in-out 0.1s;
+    transform: scale(107%);
+}
+.B4 img:hover{
+    transition:  all ease-in-out 0.01s;
+    transform: scale(107%);
+}
+.B2 span button{
+    margin-top: 85px;
+}
+.B4 span button{
+    margin-top: 85px;
+}
+.B3 span button{
+    margin-top: 45px;
+}
+.A1 h2{
+     margin-left: 1px;
+}
+.fifth ul{
+    margin-left: 40px;
+    font-size: 17px;
+}
+.fifth ul li{
+    margin-right: 10px;
+    width: 100%;
+}
+.fifth span button{
+    border: none;
+}
+
+@media (max-width: 768px){
+    nav ul{
+        display: none;
+    }
+
+    nav img{
+        margin-right: 500px;
+    }
+    nav .fa-solid{
+        display: inline;
+    }
+    .fifth ul{
+        display: none;
+    }
+    .fifth .fa-solid{
+        display: inline;
+    }
+    .container{
+        width: 100%;
+    }
+    
+}
